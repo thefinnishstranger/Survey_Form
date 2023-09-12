@@ -1,0 +1,53 @@
+h1{
+  text-align:center;
+  font-family: Tahoma;
+}
+
+body{
+  text-align: center;
+  background-color: tan;
+  color: white;
+  font-size: 20px;
+  font-family: Tahoma;
+}
+
+label{
+  display: block;
+  margin: 15px;
+}
+
+a{
+  color: white;
+}
+
+textarea{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+fieldset{
+  border-color: white;
+  border: none;
+  border-bottom: 3px solid;
+}
+
+form{
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type="submit"] {
+  width: 60%;
+  height: 2em;
+  font-size: 1.2rem;
+  background-color: white;
+  border-color: white;
+}
+
+select{
+  background-color: white;
+  width: 60%;
+  font-size: 0.9em;
+  color: black;
+}
