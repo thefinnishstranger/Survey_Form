@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta lang = "en">
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="styles.css">
+<head>
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is a short little survey that I want you to fill out</p>
+
+  <form id="survey-form">
+
+    <fieldset>
+    
+    <label id="name-label">Enter your name:
+      <input id="name" name="name" required type="text" placeholder="John Doe"/>
+    </label>
+
+    <label id="email-label">Enter your email: 
+      <input id="email" name="email" required type="email" placeholder="JohnDoe@gmail.com"/>
+    </label>
+
+    <label id="number-label">Enter your age: 
+      <input id="number" name="number" type="number" min="13" max="120" placeholder="69"/>
+    </label>
+
+    </fieldset>
+    <fieldset>
+
+    <label for="dropdown">What type of account?</label>
+    <select id="dropdown">
+      <option value="Personal-Account">Personal Account</option>
+      <option value="Business-Account">Business Account</option>
+    </select>
+
+    <label for="relationship">What is your current relationship status?
+    </label>
+
+    <label for="relationship">Single
+      <input id="relationship" type="radio" name="relationship" value="single"/>
+    </label> 
+
+    <label for="relationship">Taken
+      <input id="relationship" type="radio" name="relationship" value="taken"/>
+    </label>
+
+    <label for="relationship">Married
+      <input id="relationship" type="radio" name="relationship" value="married"/>
+    </label>
+
+    </fieldset>
+    <fieldset>
+
+    <label for="consent">
+      <input id="consent" name="consent" type="checkbox" value="consent" required/>I consent to giving my information to Nikolas Gustavson
+    </label>
+    <label for="terms-and-conditions">
+      <input id="terms-and-conditions" name="terms-and-conditions" type="checkbox" value="consent" required/>I have read the <a href="https::www.termsandconditions.com">terms and conditions</a>
+    </label>
+
+    </fieldset>
+    <fieldset>
+    <label for="bio">Tell me something about yourself!
+      <textarea id="bio" name="bio" rows=5 cols=40 type="textarea" placeholder="I am an exquisite traveler..."/></textarea>
+    </label>
+  
+    </fieldset>
+    
+    <label for="submission">
+      <input id="submit" name="submit" type="submit"/>
+    </label>
+
+  </form>
+</body>
